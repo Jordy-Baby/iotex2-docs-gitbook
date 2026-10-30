@@ -1,10 +1,10 @@
 # Envio
 
-Envio is the data layer for blockchain apps. It gives IoTeX developers the fastest, most flexible way to get real-time and historical onchain data, from a single GraphQL API to raw high-speed access, with managed hosting on Envio Cloud. Envio's HyperIndex natively supports indexing any EVM chain out of the box, so IoTeX developers can index their contracts using their own RPC as the data source.
+Envio builds custom blockchain APIs and analytics. IoTeX developers can use HyperIndex to choose the contracts and events to track, write TypeScript handlers and query the result through a GraphQL API, then run it themselves or deploy to Envio Cloud. HyperIndex works with IoTeX using your own RPC as the data source.
 
 ## Quick Start
 
-Auto-generate an indexer from any verified contract, then write your event handlers in TypeScript, JavaScript, or ReScript. Initialize a new project with the official CLI:
+Auto-generate an indexer from any verified contract, then write your event handlers in TypeScript. Initialize a new project with the official CLI:
 
 ```sh
 pnpx envio init
